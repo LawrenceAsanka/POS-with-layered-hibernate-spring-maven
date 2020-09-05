@@ -117,16 +117,16 @@ public class MainFormController implements Initializable {
             
             switch(icon.getId()){
                 case "imgCustomer":
-                    root = FXMLLoader.load(this.getClass().getResource("/lk/ijse/dep/pos/pos/view/ManageCustomerForm.fxml"));
+                    root = FXMLLoader.load(this.getClass().getResource("/view/ManageCustomerForm.fxml"));
                     break;
                 case "imgItem":
-                    root = FXMLLoader.load(this.getClass().getResource("/lk/ijse/dep/pos/pos/view/ManageItemForm.fxml"));
+                    root = FXMLLoader.load(this.getClass().getResource("/view/ManageItemForm.fxml"));
                     break;
                 case "imgOrder":
-                    root = FXMLLoader.load(this.getClass().getResource("/lk/ijse/dep/pos/pos/view/PlaceOrderForm.fxml"));
+                    root = FXMLLoader.load(this.getClass().getResource("/view/PlaceOrderForm.fxml"));
                     break;
                 case "imgViewOrders":
-                    root = FXMLLoader.load(this.getClass().getResource("/lk/ijse/dep/pos/pos/view/SearchOrdersForm.fxml"));
+                    root = FXMLLoader.load(this.getClass().getResource("/view/SearchOrdersForm.fxml"));
                     break;
             }
             

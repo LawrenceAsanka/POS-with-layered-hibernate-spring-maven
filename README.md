@@ -8,6 +8,24 @@ In this **POS System** has all the functionalities of a POS system, like custome
     * View orders
     * Search orders
 
+Further this POS System has implemented by using various technologies and frameworks.Click the above link to check those implementations.
+
+[Different Implementations of POS System](https://github.com/LawrenceAsanka/Point-of-Sale-System/blob/master/README.md)    
+
+## Prerequisites
+
+* Before use this application you must need to install [JAVA](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) runtime environment and [MYSQL](https://www.mysql.com/) database management services.
+
+## Configurations
+
+Find the resource directory from src/main/resources/application.properties and config the below properties with your dialect,database name,user name and password.
+
+`hibernate.dialect=org.hibernate.dialect.<dialect>
+ hibernate.connection.url=jdbc:mysql://localhost:3306/<database name>?createDatabaseIfNotExist=true
+ hibernate.connection.username=<user name>
+ hibernate.connection.password=<password>
+`
+
 ## Dependencies
 
 * [JFoenix](https://mvnrepository.com/artifact/com.jfoenix/jfoenix) - is an open source Java library, that implements Google Material Design using Java components.
@@ -22,4 +40,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Distributed under the MIT License. See [License](LICENSE) for more information.
